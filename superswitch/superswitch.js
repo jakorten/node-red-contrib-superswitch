@@ -1,5 +1,5 @@
 module.exports = function(RED) {
-    var ui = require('ui_base')(RED);
+    var ui = require('node-red-dashboard')(RED);
 
     function validateSwitchValue(node,property,type,payload) {
         if (payloadType === 'flow' || payloadType === 'global') {
