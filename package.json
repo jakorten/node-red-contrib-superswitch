@@ -1,0 +1,20 @@
+{
+    "name"         : "node-red-contrib-superswitch",
+    "version"      : "0.0.1",
+    "description"  : "Super switch controller",
+    "dependencies" : {
+		                 "i2c-bus"      : "5.1.0"
+    },
+    "license"     : "Apache-2.0",
+    "homepage"    : "https://github.com/jakorten/node-red-contrib-superswitch",
+    "repository"  : {
+        "type":"git",
+        "url":"https://github.com/jakorten/node-red-contrib-superswitch"
+    },
+    "keywords": [ "node-red", "super switch", "raspberry pi", "output", "slice of pi/o" ],
+    "node-red"     : {
+        "nodes": {
+            "tapcontroller": "superswitch/superswitch.js"
+        }
+    }
+}
