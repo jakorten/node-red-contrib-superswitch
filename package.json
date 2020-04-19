@@ -11,7 +11,7 @@
         "type":"git",
         "url":"https://github.com/jakorten/node-red-contrib-superswitch"
     },
-    "keywords": [ "node-red", "super switch", "raspberry pi", "output", "slice of pi/o" ],
+    "keywords": [ "node-red-dashboard-red", "super switch", "raspberry pi", "output", "slice of pi/o" ],
     "node-red"     : {
         "nodes": {
             "tapcontroller": "superswitch/superswitch.js"
