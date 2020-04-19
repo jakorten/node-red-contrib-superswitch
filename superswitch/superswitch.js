@@ -24,8 +24,11 @@ module.exports = function(RED) {
         this.state = ["off"," "];
         this.decouple = (config.decouple === "true") ? false : true;
         this.silentchange = (config.silentchange === "true") ? false : true;
+
         var node = this;
         node.status({});
+
+        console.log("Silent change status: " + this.silentchange);
 
         var group = RED.nodes.getNode(config.group);
         if (!group) { return; }
